@@ -1,0 +1,47 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+config.local.js
+
+# Sensitive Data
+*.key
+*.pem
+secrets.json
+deployment-ids.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (if using build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+.nyc_output/
+coverage/
+
+# Dependencies
+vendor/
+lib/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.scratch/
